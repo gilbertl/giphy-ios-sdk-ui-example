@@ -2,8 +2,7 @@
 
 target "Example" do 
 
-pod 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.1/Giphy.podspec'
-pod 'PINCache', :modular_headers => true
-pod 'DeepDiff'
+pod 'Giphy', :podspec => 'https://s3.amazonaws.com/sdk.mobile.giphy.com/SDK/2.0.2/Giphy.podspec'
+pod "PINCache", :modular_headers => true
 
 end

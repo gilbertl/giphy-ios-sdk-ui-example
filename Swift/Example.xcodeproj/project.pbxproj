@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60DD8AC8DFA7CC7231E3E2E9 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 697D30914D0DF9E8E2E4E9DD /* libPods-Example.a */; };
+		6944145AF592818AE304333E /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 087C6E06B1120D06492ADA2F /* libPods-Example.a */; };
 		FD1914BF232ACFC200E4221D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1914B4232ACFC100E4221D /* SettingsViewController.swift */; };
 		FD1914C0232ACFC200E4221D /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1914B5232ACFC100E4221D /* SettingCell.swift */; };
 		FD1914C1232ACFC200E4221D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1914B6232ACFC200E4221D /* ViewController.swift */; };
@@ -48,9 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		697D30914D0DF9E8E2E4E9DD /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F63BC3F1B8D1A6DBAFF5353 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		9FAFD26074B24D2DAD5C23A9 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		087C6E06B1120D06492ADA2F /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250F89761D5A1CB0266FC190 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C7694EF90D2523CD3B6ED10 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1C0D3392242C1A400D7F301 /* abraham.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = abraham.gif; sourceTree = "<group>"; };
 		C1C0D33A2242C1A400D7F301 /* suerender.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = suerender.gif; sourceTree = "<group>"; };
 		FD00A465221DD98E008F19FE /* ExampleObjectiveC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExampleObjectiveC.xcodeproj; path = ../ExampleObjectiveC/ExampleObjectiveC.xcodeproj; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DD8AC8DFA7CC7231E3E2E9 /* libPods-Example.a in Frameworks */,
+				6944145AF592818AE304333E /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +88,8 @@
 		E1A606288B73E249AA498745 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9FAFD26074B24D2DAD5C23A9 /* Pods-Example.debug.xcconfig */,
-				6F63BC3F1B8D1A6DBAFF5353 /* Pods-Example.release.xcconfig */,
+				8C7694EF90D2523CD3B6ED10 /* Pods-Example.debug.xcconfig */,
+				250F89761D5A1CB0266FC190 /* Pods-Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				FD00A465221DD98E008F19FE /* ExampleObjectiveC.xcodeproj */,
-				697D30914D0DF9E8E2E4E9DD /* libPods-Example.a */,
+				087C6E06B1120D06492ADA2F /* libPods-Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD788A5B2213444A000227B3 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				29A9E9DEC4453A45DBD64BC8 /* [CP] Check Pods Manifest.lock */,
+				A1D7FFF1B6F19D72ACB9F177 /* [CP] Check Pods Manifest.lock */,
 				FD788A4522134449000227B3 /* Sources */,
 				FD788A4622134449000227B3 /* Frameworks */,
 				FD788A4722134449000227B3 /* Resources */,
@@ -240,7 +240,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29A9E9DEC4453A45DBD64BC8 /* [CP] Check Pods Manifest.lock */ = {
+		A1D7FFF1B6F19D72ACB9F177 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,13 +423,13 @@
 		};
 		FD788A5C2213444A000227B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FAFD26074B24D2DAD5C23A9 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 8C7694EF90D2523CD3B6ED10 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DVWZFFJD5T;
+				DEVELOPMENT_TEAM = 98JC5L9M63;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -449,13 +449,13 @@
 		};
 		FD788A5D2213444A000227B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F63BC3F1B8D1A6DBAFF5353 /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 250F89761D5A1CB0266FC190 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DVWZFFJD5T;
+				DEVELOPMENT_TEAM = 98JC5L9M63;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
