@@ -1,5 +1,6 @@
-
-use_frameworks!
+# use_framework!
 target "Example" do 
-pod 'Giphy'
+pod 'Giphy', '1.1.9'
+pod "PINCache", :modular_headers => true
+
 end
